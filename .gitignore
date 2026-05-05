@@ -1,0 +1,6 @@
+build/
+dist/
+instalador_salida/
+plantillas/
+reportes/
+pycache/
