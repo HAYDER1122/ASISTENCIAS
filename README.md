@@ -1227,19 +1227,9 @@ Los embeddings son representaciones numéricas de rostros:
 - DeepFace genera vectores de **512 dimensiones**
 - Se comparan usando distancia euclidiana
 - FAISS indexa para búsquedas O(log n)
-- Threshold 0.6 = 60% similaridad
+- Threshold 0.35
 
-### Threshold de Similaridad
 
-El threshold (0.6 por defecto) es la similitud mínima para reconocer un rostro:
-
-```
-0.9-1.0 → Casi idéntico (muy restrictivo)
-0.7-0.8 → Muy similar (restrictivo, recomendado para máxima precisión)
-0.6-0.7 → Similar (equilibrado, recomendado por defecto)
-0.5-0.6 → Algo similar (sensible, reconoce variaciones)
-0.0-0.5 → Poco similar (muy permisivo)
-```
 
 ### Flujo DeepFace
 
@@ -1337,12 +1327,6 @@ Para versiones completas: ver `requirements.txt`
 - ✅ Generación de reportes PDF
 - ✅ Interfaz tema azul corporativo
 - ✅ Soporte empaquetamiento Windows
-
-### Próximas versiones
-- [ ] Soporte para múltiples idiomas
-- [ ] Integración con bases de datos remotas
-- [ ] Aplicación web complementaria
-- [ ] Análisis estadístico avanzado
 
 ---
 
