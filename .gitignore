@@ -3,4 +3,4 @@ dist/
 instalador_salida/
 plantillas/
 reportes/
-pycache/
+_pycache_/
